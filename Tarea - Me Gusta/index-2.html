@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Me Gusta - Parte 2</title>
+    <link rel="stylesheet" href="css/style-2.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Network</h1>
+        </header>
+        
+        <main class="contenido">
+            <div id="tarjeta-usuario">
+                <img  class="foto-perfil" src="img/user-circle.png" alt="Foto de perfil">
+                <h2>Adrien Desplatz</h2>
+            </div>
+            <section class="publicaciones">
+                <h1 class="titulo">Your Feed</h1>
+                <div class="tarjeta-publicacion">
+                    <div class="top-section">
+                        <h1>Linn O.</h1>
+                        <div class="likes">
+                            <p class="like-cont">0 like(s)</p>
+                            <button class="like-button" onclick="Likes(0)">Like</button>
+                        </div>
+                    </div>
+                    <p class="post">
+                        Acabo de configurar este nuevo bot de Discord,
+                        cuéntenme qué opinan ustedes.
+                        <a href="#">link</a>
+                    </p>
+                </div>  
+                <div class="tarjeta-publicacion">
+                    <div class="top-section">
+                        <h1>Lina K.</h1>
+                        <div class="likes">
+                            <p class="like-cont">0 like(s)</p>
+                            <button class="like-button" onclick="Likes(1)">Like</button>
+                        </div>
+                    </div>
+                    <p class="post">
+                    Acabo de terminar este <a href="#">nuevo comic</a>, denle un vistazo.
+                    </p>
+                </div>    
+                <div class="tarjeta-publicacion">
+                    <div class="top-section">
+                        <h1>Mateo H.</h1>
+                        <div class="likes">
+                            <p class="like-cont">0 like(s)</p>
+                            <button class="like-button" onclick="Likes(2)">Like</button>
+                        </div>
+                    </div>
+                    <p class="post">
+                        No puedo dejar de escuchar este <a href="#">álbum</a>. ¿A quién más le gusta?
+                    </p>
+                </div>  
+            </section>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

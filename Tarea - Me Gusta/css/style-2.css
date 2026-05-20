@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container {
+    width: 100%;
+    background-color: white;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.titulo {
+    margin-bottom: 15px;
+}
+.contenido {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    padding: 20px;
+}
+#tarjeta-usuario {
+    flex: 1;
+    height: 260px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+#nombre_usuario {
+    margin-bottom: 0;
+}
+.publicaciones {
+    flex: 4;
+}
+.tarjeta-publicacion {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.like-cont {
+    font-size: 18px;
+    font-weight: bold;
+}
+.like-button {
+    background-color: #ffd700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.post {
+    margin-top: 25px;
+    font-size: 20px;
+}
